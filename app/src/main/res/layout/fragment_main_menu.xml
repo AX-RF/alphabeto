@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_primary"
+    android:padding="@dimen/spacing_large"
+    tools:context="com.alphabeto.ui.main.MainMenuFragment">
+
+    <ImageView
+        android:id="@+id/heroIllustration"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintBottom_toTopOf="@id/arabicButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription"
+        tools:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/arabicButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:minHeight="@dimen/menu_button_height"
+        android:text="@string/button_arabic_alphabet"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:backgroundTint="@color/primary_blue"
+        app:cornerRadius="@dimen/menu_button_corner_radius"
+        app:icon="@android:drawable/ic_media_play"
+        app:iconGravity="textStart"
+        app:iconPadding="@dimen/spacing_medium"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/frenchButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/heroIllustration" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/frenchButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/menu_button_height"
+        android:text="@string/button_french_alphabet"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:backgroundTint="@color/primary_green"
+        app:cornerRadius="@dimen/menu_button_corner_radius"
+        app:icon="@android:drawable/ic_media_play"
+        app:iconGravity="textStart"
+        app:iconPadding="@dimen/spacing_medium"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/arabicButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

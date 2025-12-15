@@ -1,0 +1,276 @@
+{
+  "arabic": [
+    {
+      "character": "ا",
+      "unicode": "U+0627",
+      "sound": "arabic_alef"
+    },
+    {
+      "character": "ب",
+      "unicode": "U+0628",
+      "sound": "arabic_ba"
+    },
+    {
+      "character": "ت",
+      "unicode": "U+062A",
+      "sound": "arabic_ta"
+    },
+    {
+      "character": "ث",
+      "unicode": "U+062B",
+      "sound": "arabic_tha"
+    },
+    {
+      "character": "ج",
+      "unicode": "U+062C",
+      "sound": "arabic_jeem"
+    },
+    {
+      "character": "ح",
+      "unicode": "U+062D",
+      "sound": "arabic_ha"
+    },
+    {
+      "character": "خ",
+      "unicode": "U+062E",
+      "sound": "arabic_kha"
+    },
+    {
+      "character": "د",
+      "unicode": "U+062F",
+      "sound": "arabic_dal"
+    },
+    {
+      "character": "ذ",
+      "unicode": "U+0630",
+      "sound": "arabic_thal"
+    },
+    {
+      "character": "ر",
+      "unicode": "U+0631",
+      "sound": "arabic_ra"
+    },
+    {
+      "character": "ز",
+      "unicode": "U+0632",
+      "sound": "arabic_zay"
+    },
+    {
+      "character": "س",
+      "unicode": "U+0633",
+      "sound": "arabic_seen"
+    },
+    {
+      "character": "ش",
+      "unicode": "U+0634",
+      "sound": "arabic_sheen"
+    },
+    {
+      "character": "ص",
+      "unicode": "U+0635",
+      "sound": "arabic_sad"
+    },
+    {
+      "character": "ض",
+      "unicode": "U+0636",
+      "sound": "arabic_dad"
+    },
+    {
+      "character": "ط",
+      "unicode": "U+0637",
+      "sound": "arabic_ta2"
+    },
+    {
+      "character": "ظ",
+      "unicode": "U+0638",
+      "sound": "arabic_za"
+    },
+    {
+      "character": "ع",
+      "unicode": "U+0639",
+      "sound": "arabic_ain"
+    },
+    {
+      "character": "غ",
+      "unicode": "U+063A",
+      "sound": "arabic_ghain"
+    },
+    {
+      "character": "ف",
+      "unicode": "U+0641",
+      "sound": "arabic_fa"
+    },
+    {
+      "character": "ق",
+      "unicode": "U+0642",
+      "sound": "arabic_qaf"
+    },
+    {
+      "character": "ك",
+      "unicode": "U+0643",
+      "sound": "arabic_kaf"
+    },
+    {
+      "character": "ل",
+      "unicode": "U+0644",
+      "sound": "arabic_lam"
+    },
+    {
+      "character": "م",
+      "unicode": "U+0645",
+      "sound": "arabic_meem"
+    },
+    {
+      "character": "ن",
+      "unicode": "U+0646",
+      "sound": "arabic_noon"
+    },
+    {
+      "character": "ه",
+      "unicode": "U+0647",
+      "sound": "arabic_ha2"
+    },
+    {
+      "character": "و",
+      "unicode": "U+0648",
+      "sound": "arabic_waw"
+    },
+    {
+      "character": "ي",
+      "unicode": "U+064A",
+      "sound": "arabic_ya"
+    }
+  ],
+  "french": [
+    {
+      "character": "A",
+      "unicode": "U+0041",
+      "sound": "french_a"
+    },
+    {
+      "character": "B",
+      "unicode": "U+0042",
+      "sound": "french_b"
+    },
+    {
+      "character": "C",
+      "unicode": "U+0043",
+      "sound": "french_c"
+    },
+    {
+      "character": "D",
+      "unicode": "U+0044",
+      "sound": "french_d"
+    },
+    {
+      "character": "E",
+      "unicode": "U+0045",
+      "sound": "french_e"
+    },
+    {
+      "character": "F",
+      "unicode": "U+0046",
+      "sound": "french_f"
+    },
+    {
+      "character": "G",
+      "unicode": "U+0047",
+      "sound": "french_g"
+    },
+    {
+      "character": "H",
+      "unicode": "U+0048",
+      "sound": "french_h"
+    },
+    {
+      "character": "I",
+      "unicode": "U+0049",
+      "sound": "french_i"
+    },
+    {
+      "character": "J",
+      "unicode": "U+004A",
+      "sound": "french_j"
+    },
+    {
+      "character": "K",
+      "unicode": "U+004B",
+      "sound": "french_k"
+    },
+    {
+      "character": "L",
+      "unicode": "U+004C",
+      "sound": "french_l"
+    },
+    {
+      "character": "M",
+      "unicode": "U+004D",
+      "sound": "french_m"
+    },
+    {
+      "character": "N",
+      "unicode": "U+004E",
+      "sound": "french_n"
+    },
+    {
+      "character": "O",
+      "unicode": "U+004F",
+      "sound": "french_o"
+    },
+    {
+      "character": "P",
+      "unicode": "U+0050",
+      "sound": "french_p"
+    },
+    {
+      "character": "Q",
+      "unicode": "U+0051",
+      "sound": "french_q"
+    },
+    {
+      "character": "R",
+      "unicode": "U+0052",
+      "sound": "french_r"
+    },
+    {
+      "character": "S",
+      "unicode": "U+0053",
+      "sound": "french_s"
+    },
+    {
+      "character": "T",
+      "unicode": "U+0054",
+      "sound": "french_t"
+    },
+    {
+      "character": "U",
+      "unicode": "U+0055",
+      "sound": "french_u"
+    },
+    {
+      "character": "V",
+      "unicode": "U+0056",
+      "sound": "french_v"
+    },
+    {
+      "character": "W",
+      "unicode": "U+0057",
+      "sound": "french_w"
+    },
+    {
+      "character": "X",
+      "unicode": "U+0058",
+      "sound": "french_x"
+    },
+    {
+      "character": "Y",
+      "unicode": "U+0059",
+      "sound": "french_y"
+    },
+    {
+      "character": "Z",
+      "unicode": "U+005A",
+      "sound": "french_z"
+    }
+  ]
+}

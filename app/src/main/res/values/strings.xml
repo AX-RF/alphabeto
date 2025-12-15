@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Kids-Learning</string>
+    <string name="button_arabic_alphabet">Arabic Alphabet</string>
+    <string name="button_french_alphabet">French Alphabet</string>
+    <string name="title_arabic_alphabet">Arabic Letters</string>
+    <string name="title_french_alphabet">French Letters</string>
+    <string name="title_letter_tracing">Trace the Letter</string>
+    <string name="action_repeat_sound">Repeat Sound</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_restart">Restart</string>
+    <string name="action_reset_progress">Reset Progress</string>
+    <string name="action_back">Back</string>
+    <string name="label_tracing_progress">Keep tracing!</string>
+    <string name="label_completed">Completed</string>
+    <string name="format_tracing_progress">%1$d strokes, %2$d px</string>
+    <string name="format_tracing_progress_simple">%1$d strokes</string>
+    <string name="format_tracing_completed">Great job! Completed with %1$d strokes</string>
+    <string name="prompt_select_letter">Choose a letter to start tracing!</string>
+    <string name="alphabet_error_loading">We couldn\'t load the letters. Please try again.</string>
+    <string name="accessibility_letter_card">Letter %1$s, %2$s</string>
+    <string name="progress_reset_success">Progress reset! Give it another try.</string>
+</resources>
