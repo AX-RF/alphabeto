@@ -52,69 +52,93 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/topBar" />
 
-    <LinearLayout
+    <com.google.android.material.card.MaterialCardView
         android:id="@+id/bottomBar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
         android:padding="@dimen/spacing_medium"
+        app:cardBackgroundColor="@color/card_surface"
+        app:cardCornerRadius="@dimen/menu_button_corner_radius"
+        app:cardElevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <TextView
-            android:id="@+id/tracingStats"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/text_secondary"
-            android:textSize="16sp"
-            tools:text="0 strokes" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:paddingTop="@dimen/spacing_medium">
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/repeatSoundButton"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/spacing_small"
-                android:layout_weight="1"
-                android:minHeight="@dimen/tracing_button_height"
-                android:text="@string/action_repeat_sound"
-                android:textAllCaps="false"
-                android:textSize="18sp"
-                app:cornerRadius="@dimen/tracing_button_corner_radius"
-                app:icon="@android:drawable/ic_media_play"
-                app:iconGravity="textStart"
-                app:iconPadding="@dimen/spacing_small" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/clearButton"
+            <TextView
+                android:id="@+id/tracingStats"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/spacing_small"
-                android:minHeight="@dimen/tracing_button_height"
-                android:text="@string/action_clear"
-                android:textAllCaps="false"
-                android:textSize="18sp"
-                app:cornerRadius="@dimen/tracing_button_corner_radius" />
+                android:textColor="@color/text_secondary"
+                android:textSize="16sp"
+                tools:text="0 strokes" />
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/restartButton"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:minHeight="@dimen/tracing_button_height"
-                android:text="@string/action_restart"
-                android:textAllCaps="false"
-                android:textSize="18sp"
-                app:cornerRadius="@dimen/tracing_button_corner_radius" />
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/repeatSoundButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/spacing_small"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:minHeight="@dimen/tracing_button_height"
+                    android:paddingHorizontal="@dimen/spacing_medium"
+                    android:text="@string/action_repeat_sound"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:backgroundTint="@color/primary_blue"
+                    app:cornerRadius="@dimen/tracing_button_corner_radius"
+                    app:icon="@android:drawable/ic_media_play"
+                    app:iconGravity="textStart"
+                    app:iconPadding="@dimen/spacing_small"
+                    app:iconTint="@color/white" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/clearButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/spacing_small"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:minHeight="@dimen/tracing_button_height"
+                    android:paddingHorizontal="@dimen/spacing_medium"
+                    android:text="@string/action_clear"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    app:backgroundTint="@color/primary_yellow"
+                    app:cornerRadius="@dimen/tracing_button_corner_radius" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/restartButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:minHeight="@dimen/tracing_button_height"
+                    android:paddingHorizontal="@dimen/spacing_medium"
+                    android:text="@string/action_restart"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:backgroundTint="@color/primary_green"
+                    app:cornerRadius="@dimen/tracing_button_corner_radius" />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:id="@+id/progressIndicator"

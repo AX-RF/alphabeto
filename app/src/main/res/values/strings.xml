@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Kids-Learning</string>
+    <string name="app_name">Alphabeto</string>
     <string name="button_arabic_alphabet">Arabic Alphabet</string>
     <string name="button_french_alphabet">French Alphabet</string>
     <string name="title_arabic_alphabet">Arabic Letters</string>

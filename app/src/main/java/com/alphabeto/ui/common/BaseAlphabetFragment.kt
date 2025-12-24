@@ -132,7 +132,7 @@ abstract class BaseAlphabetFragment : Fragment() {
 
     protected open fun getSpanCount(): Int {
         val smallestWidth = resources.configuration.smallestScreenWidthDp
-        return if (smallestWidth >= 600) 5 else 3
+        return if (smallestWidth >= 600) 5 else 2
     }
 
     protected abstract fun getLanguage(): AlphabetLanguage
